@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1536439058 source:d:\dev\clases-programacion-laboratorio\clases\arraylib\array.c
+	<stdio.h>
+	<stdlib.h>
+	"../arrayLib/array.h"
+
+1536433125 d:\dev\clases-programacion-laboratorio\clases\arraylib\array.h
+
+1536443869 source:d:\dev\clases-programacion-laboratorio\clases\utnlib\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../utnLib/utn.h"
+
+1536440732 d:\dev\clases-programacion-laboratorio\clases\utnlib\utn.h
+
+1536443844 source:d:\dev\clases-programacion-laboratorio\clase cris\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../clases/arrayLib/array.h"
+	"../clases/utnLib/utn.h"
+

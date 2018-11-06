@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1536190708 source:/home/profesor/Ernesto/LABO1/Clase04/clase_05/main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+
+1535674282 /home/profesor/Ernesto/LABO1/Clase04/clase_05/utn.h
+
+1536188598 source:/home/profesor/Ernesto/LABO1/Clase04/clase_05/utn.c
+	<stdio_ext.h>
+	<stdlib.h>
+	"utn.h"
+
+1536282071 source:/home/profesor/Documentos/davilas/CLASE_05/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"array.h"
+
+1536272239 /home/profesor/Documentos/davilas/CLASE_05/utn.h
+
+1536188598 source:/home/profesor/Documentos/davilas/CLASE_05/utn.c
+	<stdio_ext.h>
+	<stdlib.h>
+	"utn.h"
+
+1536280658 /home/profesor/Documentos/davilas/CLASE_05/array.h
+
+1536281255 source:/home/profesor/Documentos/davilas/CLASE_05/array.c
+	<stdio.h>
+	<stdlib.h>
+	"array.h"
+
+1536438464 source:d:\dev\clases-programacion-laboratorio\clases\utnlib\utn.c
+	<stdio.h>
+	<stdlib.h>
+	"../utnLib/utn.h"
+
+1536437831 d:\dev\clases-programacion-laboratorio\clases\utnlib\utn.h
+
+1536433125 source:d:\dev\clases-programacion-laboratorio\clases\clase 6\array.c
+	<stdio.h>
+	<stdlib.h>
+	"array.h"
+
+1536433125 d:\dev\clases-programacion-laboratorio\clases\clase 6\array.h
+
+1536439058 source:d:\dev\clases-programacion-laboratorio\clases\arraylib\array.c
+	<stdio.h>
+	<stdlib.h>
+	"../arrayLib/array.h"
+
+1536433125 d:\dev\clases-programacion-laboratorio\clases\arraylib\array.h
+

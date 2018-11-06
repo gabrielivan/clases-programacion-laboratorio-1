@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1535676826 source:/home/alumno/Descargas/clases-programacion-master/clase 4/main.c
+	<stdio_ext.h>
+	<stdlib.h>
+	"utn.h"
+
+1535676884 source:/home/alumno/Descargas/clases-programacion-master/clase 4/utn.c
+	<stdio_ext.h>
+	<stdlib.h>
+	"utn.h"
+
+1535677558 /home/alumno/Descargas/clases-programacion-master/clase 4/utn.h
+
+1536438446 source:d:\dev\clases-programacion-laboratorio\clases\clase 4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../utnLib/utn.h"
+
+1536437831 d:\dev\clases-programacion-laboratorio\clases\utnlib\utn.h
+

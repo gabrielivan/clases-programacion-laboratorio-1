@@ -1,0 +1,157 @@
+# depslib dependency file v1.0
+1538092825 source:/home/alumno/Documentos/Planes/Programacion_1_Clases-master/Parcial_01/input.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1538092701 /home/alumno/Documentos/Planes/Programacion_1_Clases-master/Parcial_01/utn.h
+
+1537492029 source:/home/alumno/Documentos/Planes/Programacion_1_Clases-master/Parcial_01/sort.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1538090751 source:/home/alumno/Documentos/Planes/Programacion_1_Clases-master/Parcial_01/string.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"utn.h"
+
+1538097584 source:/home/alumno/Documentos/Planes/Programacion_1_Clases-master/Parcial_01/main.c
+	<stdio_ext.h>
+	<stdlib.h>
+	"utn.h"
+	"pantalla.h"
+	"contrataciones.h"
+
+1538097620 /home/alumno/Documentos/Planes/Programacion_1_Clases-master/Parcial_01/pantalla.h
+
+1538092933 source:/home/alumno/Documentos/Planes/Programacion_1_Clases-master/Parcial_01/validacion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"utn.h"
+
+1538097747 source:/home/alumno/Documentos/Planes/Programacion_1_Clases-master/Parcial_01/contrataciones.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"contrataciones.h"
+
+1538095122 /home/alumno/Documentos/Planes/Programacion_1_Clases-master/Parcial_01/contrataciones.h
+
+1538097632 source:/home/alumno/Documentos/Planes/Programacion_1_Clases-master/Parcial_01/pantalla.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"pantalla.h"
+
+1538183072 source:/home/alexei/Documents/UTN/Programacion_1_Clases-master/Parcial_01/contrataciones.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"contrataciones.h"
+
+1538150265 /home/alexei/Documents/UTN/Programacion_1_Clases-master/Parcial_01/utn.h
+
+1538182174 /home/alexei/Documents/UTN/Programacion_1_Clases-master/Parcial_01/contrataciones.h
+
+1538158845 source:/home/alexei/Documents/UTN/Programacion_1_Clases-master/Parcial_01/input.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1538184279 source:/home/alexei/Documents/UTN/Programacion_1_Clases-master/Parcial_01/main.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"pantalla.h"
+	"contrataciones.h"
+
+1538148792 /home/alexei/Documents/UTN/Programacion_1_Clases-master/Parcial_01/pantalla.h
+
+1538174666 source:/home/alexei/Documents/UTN/Programacion_1_Clases-master/Parcial_01/pantalla.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"pantalla.h"
+
+1537492029 source:/home/alexei/Documents/UTN/Programacion_1_Clases-master/Parcial_01/sort.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1538090751 source:/home/alexei/Documents/UTN/Programacion_1_Clases-master/Parcial_01/string.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"utn.h"
+
+1538150385 source:/home/alexei/Documents/UTN/Programacion_1_Clases-master/Parcial_01/validacion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	"utn.h"
+
+1538320969 source:c:\users\admin\desktop\parcial ale\contrataciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"contrataciones.h"
+
+1538170034 c:\users\admin\desktop\parcial ale\utn.h
+
+1538170034 c:\users\admin\desktop\parcial ale\contrataciones.h
+
+1538320961 source:c:\users\admin\desktop\parcial ale\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1538320976 source:c:\users\admin\desktop\parcial ale\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"pantalla.h"
+	"contrataciones.h"
+
+1538170034 c:\users\admin\desktop\parcial ale\pantalla.h
+
+1538320982 source:c:\users\admin\desktop\parcial ale\pantalla.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"pantalla.h"
+
+1538170034 source:c:\users\admin\desktop\parcial ale\sort.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1538170034 source:c:\users\admin\desktop\parcial ale\validacion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	"utn.h"
+

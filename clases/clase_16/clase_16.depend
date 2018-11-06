@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1539909786 source:/home/alumno/Escritorio/Clases-Programacion-laboratorio-1/clase_16/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+
+1539909708 source:/home/alumno/Escritorio/Clases-Programacion-laboratorio-1/clase_16/cliente.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+
+1539910529 /home/alumno/Escritorio/Clases-Programacion-laboratorio-1/clase_16/cliente.h
+

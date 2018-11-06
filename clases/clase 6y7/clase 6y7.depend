@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1536762295 source:c:\users\admin\desktop\clases-programacion-laboratorio-master\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../clases-programacion-laboratorio-master/utn.h"
+
+1536761114 c:\users\admin\desktop\clases-programacion-laboratorio-master\utn.h
+
+1536761365 source:c:\users\admin\desktop\clase 6y7\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../clases-programacion-laboratorio-master/utn.h"
+

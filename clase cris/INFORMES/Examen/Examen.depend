@@ -1,0 +1,91 @@
+# depslib dependency file v1.0
+1538687538 source:/home/alumno/Documentos/clasesProgramacionLabPrimerCuatrimestre/EXAMEN/Examen/utn.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"utn.h"
+
+1538687538 /home/alumno/Documentos/clasesProgramacionLabPrimerCuatrimestre/EXAMEN/Examen/utn.h
+
+1538701428 source:/home/alumno/Documentos/clasesProgramacionLabPrimerCuatrimestre/EXAMEN/Examen/main.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"venta.h"
+	"cliente.h"
+
+1538688752 source:/home/alumno/Documentos/clasesProgramacionLabPrimerCuatrimestre/EXAMEN/Examen/informes.c
+
+1538701455 source:/home/alumno/Documentos/clasesProgramacionLabPrimerCuatrimestre/EXAMEN/Examen/cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"cliente.h"
+	"venta.h"
+
+1538701028 /home/alumno/Documentos/clasesProgramacionLabPrimerCuatrimestre/EXAMEN/Examen/cliente.h
+
+1538699695 /home/alumno/Documentos/clasesProgramacionLabPrimerCuatrimestre/EXAMEN/Examen/venta.h
+
+1538700390 source:/home/alumno/Documentos/clasesProgramacionLabPrimerCuatrimestre/EXAMEN/Examen/venta.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"cliente.h"
+	"venta.h"
+
+1539091577 source:/home/leandroegea/Documents/clasesProgramacionLabPrimerCuatrimestre/EXAMEN/Examen/informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"informes.h"
+	"cliente.h"
+	"venta.h"
+
+1539091481 source:/home/leandroegea/Documents/clasesProgramacionLabPrimerCuatrimestre/EXAMEN/Examen/main.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"venta.h"
+	"cliente.h"
+	"informes.h"
+
+1539051539 /home/leandroegea/Documents/clasesProgramacionLabPrimerCuatrimestre/EXAMEN/Examen/utn.h
+
+1539032918 /home/leandroegea/Documents/clasesProgramacionLabPrimerCuatrimestre/EXAMEN/Examen/venta.h
+
+1539031601 /home/leandroegea/Documents/clasesProgramacionLabPrimerCuatrimestre/EXAMEN/Examen/cliente.h
+
+1539053613 source:/home/leandroegea/Documents/clasesProgramacionLabPrimerCuatrimestre/EXAMEN/Examen/utn.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"utn.h"
+
+1539050058 source:/home/leandroegea/Documents/clasesProgramacionLabPrimerCuatrimestre/EXAMEN/Examen/venta.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"cliente.h"
+	"venta.h"
+	"informes.h"
+
+1539053813 source:/home/leandroegea/Documents/clasesProgramacionLabPrimerCuatrimestre/EXAMEN/Examen/cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"cliente.h"
+	"venta.h"
+	"informes.h"
+
+1539090999 /home/leandroegea/Documents/clasesProgramacionLabPrimerCuatrimestre/EXAMEN/Examen/informes.h
+

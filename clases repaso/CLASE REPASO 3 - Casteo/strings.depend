@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1536423125 source:d:\strings\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"func.h"
+
+1536419860 source:d:\strings\func.c
+	<stdio.h>
+	<stdlib.h>
+
+1536418438 d:\strings\func.h
+
+1536433125 source:d:\dev\clases-programacion-laboratorio\clase repaso 3 - casteo\func.c
+	<stdio.h>
+	<stdlib.h>
+
+1536435897 source:d:\dev\clases-programacion-laboratorio\clase repaso 3 - casteo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"func.h"
+
+1536433125 d:\dev\clases-programacion-laboratorio\clase repaso 3 - casteo\func.h
+

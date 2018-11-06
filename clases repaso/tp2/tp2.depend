@@ -1,0 +1,66 @@
+# depslib dependency file v1.0
+1538449843 source:c:\users\admin\desktop\tp2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arrayEmployees.h"
+	"utn.h"
+
+1538449843 oyees.h"
+
+1538405354 c:\users\admin\desktop\tp2\empleado.h
+
+1538084198 c:\users\admin\desktop\tp2\utn.h
+
+1538084198 source:c:\users\admin\desktop\tp2\utn.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1538084198 
+
+1538445143 source:c:\users\admin\desktop\tp2\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleado.h"
+	"utn.h"
+
+1538445143 h"
+
+1538449843 source:c:\users\admin\desktop\tp2\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arrayEmployees.h"
+	"utn.h"
+
+1538405354 c:\users\admin\desktop\tp2\arrayemployees.h
+
+1538488231 source:/home/gabriel/Escritorio/tp2/main.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"arrayEmployees.h"
+	"utn.h"
+
+1538450742 /home/gabriel/Escritorio/tp2/arrayEmployees.h
+
+1538450742 /home/gabriel/Escritorio/tp2/utn.h
+
+1538488622 source:/home/gabriel/Escritorio/tp2/utn.c
+	<stdio_ext.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1538488231 source:/home/gabriel/Escritorio/tp2/arrayEmployees.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"arrayEmployees.h"
+	"utn.h"
+

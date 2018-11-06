@@ -1,0 +1,571 @@
+# depslib dependency file v1.0
+1537319550 source:/home/profesor/Descargas/clase7_final/producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"producto.h"
+
+1538474400 h"
+
+1536881187 source:/home/profesor/Descargas/clase7_final/utn.c
+	<stdio_ext.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1537997412 
+
+1536878357 /home/profesor/Descargas/clase7_final/utn.h
+
+1537313494 source:/home/profesor/Descargas/clase7_final/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"producto.h"
+
+1537319687 /home/profesor/Descargas/clase7_final/producto.h
+
+1537484548 source:/home/profesor/Descargas/clase10_init/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"producto.h"
+
+1536878357 /home/profesor/Descargas/clase10_init/utn.h
+
+1537484256 /home/profesor/Descargas/clase10_init/producto.h
+
+1537491816 source:/home/profesor/Descargas/clase10_init/producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"producto.h"
+
+1536881187 source:/home/profesor/Descargas/clase10_init/utn.c
+	<stdio_ext.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1537492188 source:/home/profesor/Descargas/clase10_init/pantalla.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"pantalla.h"
+
+1537492167 /home/profesor/Descargas/clase10_init/pantalla.h
+
+1538143115 source:c:\users\admin\desktop\utn_c-utn_h-master\clase_10_fin\pantalla.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantalla.h"
+	"utn.h"
+
+1538084198 c:\users\admin\desktop\utn_c-utn_h-master\clase_10_fin\pantalla.h
+
+1538157792 source:c:\users\admin\desktop\utn_c-utn_h-master\clase_10_fin\main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"pantalla.h"
+	"contrataciones.h"
+
+1538661376 iones.h"
+
+1538084198 source:c:\users\admin\desktop\utn_c-utn_h-master\clase_10_fin\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"producto.h"
+
+1538084198 c:\users\admin\desktop\utn_c-utn_h-master\clase_10_fin\utn.h
+
+1538084198 c:\users\admin\desktop\utn_c-utn_h-master\clase_10_fin\producto.h
+
+1538084198 source:c:\users\admin\desktop\utn_c-utn_h-master\clase_10_fin\utn.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1538158499 source:c:\users\admin\desktop\utn_c-utn_h-master\clase_10_fin\contrataciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantalla.h"
+	"utn.h"
+	"contrataciones.h"
+
+1538158061 c:\users\admin\desktop\utn_c-utn_h-master\clase_10_fin\contrataciones.h
+
+1537997412 source:c:\users\chris_x4urr38\desktop\utn_c-utn_h-master\clase_10_fin\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1538021337 source:c:\users\chris_x4urr38\desktop\utn_c-utn_h-master\clase_10_fin\pantalla.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantalla.h"
+	"utn.h"
+
+1537997412 c:\users\chris_x4urr38\desktop\utn_c-utn_h-master\clase_10_fin\pantalla.h
+
+1538017627 c:\users\chris_x4urr38\desktop\utn_c-utn_h-master\clase_10_fin\utn.h
+
+1537997412 source:c:\users\chris_x4urr38\desktop\utn_c-utn_h-master\clase_10_fin\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"producto.h"
+
+1537997412 c:\users\chris_x4urr38\desktop\utn_c-utn_h-master\clase_10_fin\producto.h
+
+1538021074 source:c:\users\chris_x4urr38\desktop\utn_c-utn_h-master\clase_10_fin\utn.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1538021256 source:c:\users\chris_x4urr38\desktop\utn_c-utn_h-master\clase_10_fin\contrataciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantalla.h"
+	"utn.h"
+	"contrataciones.h"
+
+1538021183 c:\users\chris_x4urr38\desktop\utn_c-utn_h-master\clase_10_fin\contrataciones.h
+
+1538618057 source:c:\users\admin\desktop\parcial gaby\contrataciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantalla.h"
+	"utn.h"
+	"contrataciones.h"
+
+1538595577 c:\users\admin\desktop\parcial gaby\pantalla.h
+
+1538618057 c:\users\admin\desktop\parcial gaby\utn.h
+
+1538537170 c:\users\admin\desktop\parcial gaby\contrataciones.h
+
+1538617173 source:c:\users\admin\desktop\parcial gaby\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"pantalla.h"
+	"contrataciones.h"
+
+1538595569 source:c:\users\admin\desktop\parcial gaby\pantalla.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantalla.h"
+	"utn.h"
+
+1538474400 source:c:\users\admin\desktop\parcial gaby\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"producto.h"
+
+1538474400 c:\users\admin\desktop\parcial gaby\producto.h
+
+1538618206 source:c:\users\admin\desktop\parcial gaby\utn.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1538345372 source:d:\dev\clases-programacion-laboratorio\clase cris\parcial gaby\contrataciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantalla.h"
+	"utn.h"
+	"contrataciones.h"
+
+1538342878 d:\dev\clases-programacion-laboratorio\clase cris\parcial gaby\pantalla.h
+
+1538336790 d:\dev\clases-programacion-laboratorio\clase cris\parcial gaby\utn.h
+
+1538346635 d:\dev\clases-programacion-laboratorio\clase cris\parcial gaby\contrataciones.h
+
+1538344525 source:d:\dev\clases-programacion-laboratorio\clase cris\parcial gaby\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"pantalla.h"
+	"contrataciones.h"
+
+1538342958 source:d:\dev\clases-programacion-laboratorio\clase cris\parcial gaby\pantalla.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantalla.h"
+	"utn.h"
+
+1538336790 source:d:\dev\clases-programacion-laboratorio\clase cris\parcial gaby\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"producto.h"
+
+1538336790 d:\dev\clases-programacion-laboratorio\clase cris\parcial gaby\producto.h
+
+1538336790 source:d:\dev\clases-programacion-laboratorio\clase cris\parcial gaby\utn.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1538620558 source:c:\users\admin\desktop\salvar parcialgaby\contrataciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantalla.h"
+	"utn.h"
+	"contrataciones.h"
+
+1538620479 c:\users\admin\desktop\salvar parcialgaby\pantalla.h
+
+1538619051 c:\users\admin\desktop\salvar parcialgaby\utn.h
+
+1538620685 c:\users\admin\desktop\salvar parcialgaby\contrataciones.h
+
+1538617173 source:c:\users\admin\desktop\salvar parcialgaby\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"pantalla.h"
+	"contrataciones.h"
+
+1538620479 source:c:\users\admin\desktop\salvar parcialgaby\pantalla.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantalla.h"
+	"utn.h"
+
+1538474400 source:c:\users\admin\desktop\salvar parcialgaby\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"producto.h"
+
+1538474400 c:\users\admin\desktop\salvar parcialgaby\producto.h
+
+1538619292 source:c:\users\admin\desktop\salvar parcialgaby\utn.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1538660747 source:c:\users\admin\desktop\casi fantasma\contrataciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantalla.h"
+	"utn.h"
+	"contrataciones.h"
+
+1538620479 c:\users\admin\desktop\casi fantasma\pantalla.h
+
+1538619051 c:\users\admin\desktop\casi fantasma\utn.h
+
+1538620685 c:\users\admin\desktop\casi fantasma\contrataciones.h
+
+1538661187 source:c:\users\admin\desktop\casi fantasma\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"pantalla.h"
+	"contrataciones.h"
+
+1538660904 source:c:\users\admin\desktop\casi fantasma\pantalla.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantalla.h"
+	"utn.h"
+
+1538474400 source:c:\users\admin\desktop\casi fantasma\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"producto.h"
+
+1538474400 c:\users\admin\desktop\casi fantasma\producto.h
+
+1538621787 source:c:\users\admin\desktop\casi fantasma\utn.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1538674440 source:c:\users\admin\desktop\fantasma!!\contrataciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantalla.h"
+	"utn.h"
+	"contrataciones.h"
+
+1538620479 c:\users\admin\desktop\fantasma!!\pantalla.h
+
+1538674172 c:\users\admin\desktop\fantasma!!\utn.h
+
+1538620685 c:\users\admin\desktop\fantasma!!\contrataciones.h
+
+1538661376 source:c:\users\admin\desktop\fantasma!!\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"pantalla.h"
+	"contrataciones.h"
+
+1538674494 source:c:\users\admin\desktop\fantasma!!\pantalla.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantalla.h"
+	"utn.h"
+
+1538474400 source:c:\users\admin\desktop\fantasma!!\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"producto.h"
+
+1538474400 c:\users\admin\desktop\fantasma!!\producto.h
+
+1538674332 source:c:\users\admin\desktop\fantasma!!\utn.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1538687637 source:/home/alumno/Documentos/FANTASMA!!/contrataciones.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"pantalla.h"
+	"utn.h"
+	"contrataciones.h"
+
+1538690794 /home/alumno/Documentos/FANTASMA!!/pantalla.h
+
+1538663374 /home/alumno/Documentos/FANTASMA!!/utn.h
+
+1538609886 /home/alumno/Documentos/FANTASMA!!/contrataciones.h
+
+1538699656 source:/home/alumno/Documentos/FANTASMA!!/main.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"cliente.h"
+	"afiches.h"
+
+1538687637 source:/home/alumno/Documentos/FANTASMA!!/pantalla.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"pantalla.h"
+	"utn.h"
+
+1538463600 source:/home/alumno/Documentos/FANTASMA!!/producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"producto.h"
+
+1538463600 /home/alumno/Documentos/FANTASMA!!/producto.h
+
+1538687637 source:/home/alumno/Documentos/FANTASMA!!/utn.c
+	<stdio_ext.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1538700320 /home/alumno/Documentos/FANTASMA!!/cliente.h
+
+1538698307 /home/alumno/Documentos/FANTASMA!!/afiches.h
+
+1538699874 source:/home/alumno/Documentos/FANTASMA!!/afiches.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"utn.h"
+	"afiches.h"
+
+1538693341 source:/home/alumno/Documentos/FANTASMA!!/cliente.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"utn.h"
+
+1538927813 source:c:\users\admin\desktop\parcial\afiches.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"utn.h"
+	"afiches.h"
+
+1538927719 c:\users\admin\desktop\parcial\cliente.h
+
+1538822542 c:\users\admin\desktop\parcial\utn.h
+
+1538927772 c:\users\admin\desktop\parcial\afiches.h
+
+1538927847 source:c:\users\admin\desktop\parcial\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"utn.h"
+	"afiches.h"
+
+1538927929 source:c:\users\admin\desktop\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"cliente.h"
+	"afiches.h"
+	"infomes.h"
+
+1538822542 source:c:\users\admin\desktop\parcial\utn.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1538831550 source:c:\users\alumno\downloads\clases-programacion-laboratorio-master\clase cris\parcial\afiches.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"utn.h"
+	"afiches.h"
+
+1538831589 c:\users\alumno\downloads\clases-programacion-laboratorio-master\clase cris\parcial\cliente.h
+
+1538825461 c:\users\alumno\downloads\clases-programacion-laboratorio-master\clase cris\parcial\utn.h
+
+1538831550 c:\users\alumno\downloads\clases-programacion-laboratorio-master\clase cris\parcial\afiches.h
+
+1538831792 source:c:\users\alumno\downloads\clases-programacion-laboratorio-master\clase cris\parcial\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"utn.h"
+
+1538831792 source:c:\users\alumno\downloads\clases-programacion-laboratorio-master\clase cris\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"cliente.h"
+	"afiches.h"
+
+1538825461 source:c:\users\alumno\downloads\clases-programacion-laboratorio-master\clase cris\parcial\utn.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1538830126 source:c:\users\alumno\downloads\clases-programacion-laboratorio-master\clase cris\parcial\informes.c
+
+1538831550 source:c:\users\alumno\desktop\parcial\afiches.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"utn.h"
+	"afiches.h"
+
+1538831589 c:\users\alumno\desktop\parcial\cliente.h
+
+1538825461 c:\users\alumno\desktop\parcial\utn.h
+
+1538835476 c:\users\alumno\desktop\parcial\afiches.h
+
+1538831792 source:c:\users\alumno\desktop\parcial\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"utn.h"
+
+1538836588 source:c:\users\alumno\desktop\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"cliente.h"
+	"afiches.h"
+	"infomes.h"
+
+1538825461 source:c:\users\alumno\desktop\parcial\utn.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1538836200 c:\users\alumno\desktop\parcial\infomes.h
+
+1538836176 source:c:\users\alumno\desktop\parcial\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+
+1538926595 source:c:\users\admin\desktop\parcial\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"afiches.h"
+
+1538926614 c:\users\admin\desktop\parcial\infomes.h
+
