@@ -488,7 +488,19 @@ int ll_containsAll(LinkedList* this,LinkedList* this2)
 LinkedList* ll_subList(LinkedList* this,int from,int to)
 {
     LinkedList* cloneArray = NULL;
+    void *pElement;
+    int i;
 
+    if(this != NULL && from >= 0 && to <= this->size)
+    {
+        cloneArray = ll_newLinkedList();
+        for(i=from;i < to;i++)
+        {
+            pElement = ll_get(this,i);
+            ll_add(cloneArray,pElement);
+        }
+
+    }
     return cloneArray;
 }
 
