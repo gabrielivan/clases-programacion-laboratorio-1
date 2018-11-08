@@ -514,9 +514,7 @@ LinkedList* ll_subList(LinkedList* this,int from,int to)
 */
 LinkedList* ll_clone(LinkedList* this)
 {
-    LinkedList* cloneArray = NULL;
-
-    return cloneArray;
+    return ll_subList(this,0,ll_len(this));
 }
 
 
@@ -529,9 +527,10 @@ LinkedList* ll_clone(LinkedList* this)
  */
 int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order)
 {
-    int returnAux =-1;
-
+    int returnAux = -1;
+//    int i;
+//    Node* auxNode;
+//    void* auxElement;
     return returnAux;
-
 }
 
