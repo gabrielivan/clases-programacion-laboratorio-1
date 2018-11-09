@@ -529,38 +529,61 @@ int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order)
 {
     int returnAux = -1;
     int i;
-    int size = ll_len(this);
     int flagSwap;
-    void* ElementoUno;
-    void* ElementoDos;
-    int retornoOrder;
+    Node* auxNode;
 
-
-    if(this != NULL &&size > 0 && pFunc != NULL && (order == 1 || order == 0))
+    if(this != NULL && ll_len(this)> 0 && pFunc != NULL && (order == 1 || order == 0))
     {
         do
         {
+            i = 0;
+            auxNode = getNode(this,i);
             flagSwap = 0;
-
-            for(i=0;i<size;i++)
+            for(i=0;i<ll_len(this)-1;i++)
             {
-                ElementoUno = ll_get(this,i);
-                ElementoDos = ll_get(this,i+1);
-                if(ElementoUno != NULL && ElementoDos != NULL)
+                if(i!= 0)
                 {
-                    retornoOrder = pFunc(ElementoUno,ElementoDos);
-                    if((order == 0 && retornoOrder == -1) || (retornoOrder == 1 && order == 1))
-                    {   //Orden ascendente
-                        flagSwap = 1;
-                        ll_set(this,i,ElementoDos);
-                        ll_set(this,i+1,ElementoUno);
-                    }
+                    auxNode = auxNode->pNextNode;
                 }
-            }
-        }while(flagSwap == 1);
+                if((order == 0 && auxNode->pElement != NULL && auxNode->pNextNode->pElement != NULL && (*pFunc)(auxNode->pElement,auxNode->pNextNode->pElement)== -1)||
+                   (order == 1 && auxNode->pElement != NULL && auxNode->pNextNode->pElement != NULL && (*pFunc)(auxNode->pElement,auxNode->pNextNode->pElement)== 1))
+                {
+                   flagSwap = 1;
+                   ll_swapElement(this,auxNode);
+                }
 
+            }
+        }
+        while(flagSwap == 1);
         returnAux = 0;
     }
     return returnAux;
 }
 
+/** \brief Intercambia los elementos de dos nodos consecutivos
+ * \param pList LinkedList* Puntero a la lista
+ * \param pNodeAnterior Es el primer nodo que se va a intercambiar, el segundo lo obtenemos de su pNextNode
+ * \return int Retorna  (-1) Error: si el puntero a la lista es NULL o alguno de los nodos es NULLL
+                                ( 0) Si ok
+ */
+
+int ll_swapElement(LinkedList* this, Node* pNodeAnterior)
+{
+    int returnAux = -1;
+    Node* pNodeSiguiente = pNodeAnterior->pNextNode;
+    void* auxElement = NULL;
+    if(this != NULL && pNodeAnterior != NULL && pNodeSiguiente != NULL)
+    {
+        auxElement = pNodeAnterior->pElement;
+        pNodeAnterior->pElement = pNodeSiguiente->pElement;
+        pNodeSiguiente->pElement = auxElement;
+        returnAux = 0;
+    }
+    return returnAux;
+}
+
+LinkedList* ll_filter(LinkedList* this,int(*pFunc)(void* pElement))
+{
+    LinkedList* returnAux = NULL;
+    return returnAux;
+}
