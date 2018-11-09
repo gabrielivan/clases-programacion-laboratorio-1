@@ -4608,7 +4608,7 @@
 
 1541218184 d:\dev\clases-programacion-laboratorio\clases\tp4\testing\inc\main_test.h
 
-1541470485 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\addnodetest.c
+1541690434 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\addnodetest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -4616,13 +4616,13 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1541470485 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\utest.h
+1541690434 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\utest.h
 
-1541470485 d:\clases-programacion-laboratorio-1-master\clases\tp4\inc\linkedlist.h
+1541690434 d:\clases-programacion-laboratorio-1-master\clases\tp4\inc\linkedlist.h
 
-1541470485 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\employee.h
+1541690434 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\employee.h
 
-1541470485 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\addtest.c
+1541690434 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\addtest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -4630,7 +4630,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1541470485 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\cleartest.c
+1541690434 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\cleartest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -4638,7 +4638,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1541470485 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\clonetest.c
+1541690434 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\clonetest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -4646,7 +4646,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1541470485 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\containsalltest.c
+1541690434 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\containsalltest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -4654,7 +4654,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1541470485 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\containstest.c
+1541690434 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\containstest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -4662,7 +4662,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1541470485 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\deletelinkedlisttest.c
+1541690434 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\deletelinkedlisttest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -4670,13 +4670,13 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1541470485 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\employee.c
+1541690434 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\employee.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"../inc/Employee.h"
 
-1541470485 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\getnodetest.c
+1541690434 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\getnodetest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -4684,7 +4684,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1541470485 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\gettest.c
+1541690434 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\gettest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -4692,7 +4692,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1541470485 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\indexoftest.c
+1541690434 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\indexoftest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -4700,7 +4700,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1541470485 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\isemptytest.c
+1541690434 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\isemptytest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -4708,7 +4708,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1541470485 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\lentest.c
+1541690434 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\lentest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -4716,7 +4716,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1541470485 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\main_test.c
+1541690434 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\main_test.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -4740,60 +4740,52 @@
 	"../inc/containsAllTest.h"
 	"../inc/sortTest.h"
 
-1541470485 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\newtest.h
+1541690434 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\newtest.h
 
-1541470485 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\addtest.h
+1541690434 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\addtest.h
 
-1541470485 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\getnodetest.h
+1541690434 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\getnodetest.h
 
-1541470485 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\addnodetest.h
+1541690434 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\addnodetest.h
 
-1541470485 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\deletelinkedlisttest.h
+1541690434 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\deletelinkedlisttest.h
 
-1541470485 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\lentest.h
+1541690434 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\lentest.h
 
-1541470485 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\gettest.h
+1541690434 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\gettest.h
 
-1541470485 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\containstest.h
+1541690434 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\containstest.h
 
-1541470485 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\settest.h
+1541690434 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\settest.h
 
-1541470485 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\removetest.h
+1541690434 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\removetest.h
 
-1541470485 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\cleartest.h
+1541690434 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\cleartest.h
 
-1541470485 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\clonetest.h
+1541690434 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\clonetest.h
 
-1541470485 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\pushtest.h
+1541690434 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\pushtest.h
 
-1541470485 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\indexoftest.h
+1541690434 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\indexoftest.h
 
-1541470485 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\isemptytest.h
+1541690434 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\isemptytest.h
 
-1541470485 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\poptest.h
+1541690434 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\poptest.h
 
-1541470485 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\sublisttest.h
+1541690434 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\sublisttest.h
 
-1541470485 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\containsalltest.h
+1541690434 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\containsalltest.h
 
-1541470485 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\sorttest.h
+1541690434 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\sorttest.h
 
-1541470485 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\newtest.c
+1541690434 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\newtest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"../../inc/LinkedList.h"
 
-1541470485 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\poptest.c
-	"../../testing/utest.h"
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"../../inc/LinkedList.h"
-	"../../testing/inc/Employee.h"
-
-1541470485 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\pushtest.c
+1541690434 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\poptest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -4801,7 +4793,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1541470485 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\removetest.c
+1541690434 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\pushtest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -4809,7 +4801,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1541470485 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\settest.c
+1541690434 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\removetest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -4817,7 +4809,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1541470485 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\sorttest.c
+1541690434 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\settest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -4825,7 +4817,7 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1541470485 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\sublisttest.c
+1541690434 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\sorttest.c
 	"../../testing/utest.h"
 	<stdio.h>
 	<stdlib.h>
@@ -4833,22 +4825,30 @@
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
 
-1541470485 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\utest.c
+1541690434 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\src\sublisttest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1541690434 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\utest.c
 	"utest.h"
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 
-1541551419 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\src\main.c
+1541714487 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\src\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"../testing/inc/main_test.h"
 	"../inc/LinkedList.h"
 
-1541470485 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\main_test.h
+1541690434 d:\clases-programacion-laboratorio-1-master\clases\tp4\testing\inc\main_test.h
 
-1541552159 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\src\linkedlist.c
+1541717659 source:d:\clases-programacion-laboratorio-1-master\clases\tp4\src\linkedlist.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
