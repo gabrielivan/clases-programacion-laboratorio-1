@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1529542742 source:d:\ejerciciopre2doparcialv2\empleado.c
+	"Empleado.h"
+
+1542156168 d:\ejerciciopre2doparcialv2\empleado.h
+
+1542155576 source:d:\ejerciciopre2doparcialv2\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1542148120 d:\ejerciciopre2doparcialv2\linkedlist.h
+
+1542155690 source:d:\ejerciciopre2doparcialv2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Empleado.h"
+	"LinkedList.h"
+	"Parser.h"
+
+1542155609 d:\ejerciciopre2doparcialv2\parser.h
+	"LinkedList.h"
+
+1542155658 source:d:\ejerciciopre2doparcialv2\parser.c
+	"LinkedList.h"
+

@@ -1,6 +1,6 @@
-#include "ArrayList.h"
+#include "LinkedList.h"
 
-int parser_parseEmpleados(char* fileName, ArrayList* listaEmpleados)
+int parser_parseEmpleados(char* fileName, LinkedList* listaEmpleados)
 {
 
 

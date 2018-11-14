@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "Empleado.h"
-#include "ArrayList.h"
+#include "LinkedList.h"
 #include "Parser.h"
 
 /**
@@ -22,12 +22,12 @@
     original pero con una columna mas al final, en donde se indicara el sueldo calculado.
 */
 
-int generarArchivoSueldos(char* fileName,ArrayList* listaEmpleados);
+int generarArchivoSueldos(char* fileName,LinkedList* listaEmpleados);
 
 int main()
 {
     // Definir lista de empleados
-    ArrayList* listaEmpleados;
+    LinkedList* listaEmpleados;
 
     // Crear lista empledos
     //...
@@ -37,7 +37,7 @@ int main()
     {
         // Calcular sueldos
         printf("Calculando sueldos de empleados\n");
-        al_map(listaEmpleados,em_calcularSueldo);
+        //ll_map(listaEmpleados,em_calcularSueldo);
 
         // Generar archivo de salida
         if(generarArchivoSueldos("sueldos.csv",listaEmpleados)==1)
@@ -54,7 +54,7 @@ int main()
     return 0;
 }
 
-int generarArchivoSueldos(char* fileName,ArrayList* listaEmpleados)
+int generarArchivoSueldos(char* fileName,LinkedList* listaEmpleados)
 {
     return 1;
 }
