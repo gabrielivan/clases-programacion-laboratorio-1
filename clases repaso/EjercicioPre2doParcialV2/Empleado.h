@@ -32,6 +32,7 @@ int Empleado_getSueldo(Empleado* this,int* sueldo);
 int Empleado_criterioSortNombre(void* thisA,void* thisB);
 int Empleado_getAll(Empleado* this,char* nombre,int* horas,int* sueldo,int* id);
 
-int Empleado_calcularSueldo(void* p);
+int Empleado_calcularSueldo(void* pEmpleado);
+int Empleado_mostrar(void* pEmpleado);
 
 #endif // EMPLEADO_H_INCLUDED

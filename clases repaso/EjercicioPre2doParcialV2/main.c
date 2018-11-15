@@ -40,13 +40,15 @@ int main()
         //printf("%d",listaEmpleados->size);
         // Calcular sueldos
         printf("Calculando sueldos de empleados\n");
-
+        //ll_map(listaEmpleados,Empleado_mostrar);
         ll_map(listaEmpleados,Empleado_calcularSueldo);
+        ll_map(listaEmpleados,Empleado_mostrar);
+
 
         // Generar archivo de salida
         if(generarArchivoSueldos("sueldos.csv",listaEmpleados)==1)
         {
-            printf("Archivo generado correctamente\n");
+            printf("\nArchivo generado correctamente\n");
         }
         else
             printf("Error generando archivo\n");

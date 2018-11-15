@@ -321,3 +321,37 @@ int Empleado_calcularSueldo(void* pEmpleado)
 
     return retorno;
 }
+
+/**
+*\brief Se muestran los datos de todos los campos del elemento
+*\param this Es el puntero al elemento
+*\return Retorna 0 si el elemento es diferente a NULL sino retorna -1
+*/
+
+int Empleado_mostrar(void* pEmpleado)
+{
+    int retorno = -1;
+    int auxId;
+    char auxNombre[128];
+    int auxHorasTrabajadas;
+    int auxSueldo;
+
+    if(pEmpleado != NULL)
+    {
+        Empleado_getId(pEmpleado,&auxId);
+        if(auxId != -1)
+        {
+            Empleado_getNombre(pEmpleado,auxNombre);
+            Empleado_getSueldo(pEmpleado,&auxSueldo);
+            Empleado_getHorasTrabajadas(pEmpleado,&auxHorasTrabajadas);
+            Empleado_getId(pEmpleado,&auxId);
+
+            printf("\nID: %d",auxId);
+            printf(" Nombre: %s",auxNombre);
+            printf(" Sueldo: %d",auxSueldo);
+            printf(" Horas trabajadas: %d",auxHorasTrabajadas);
+            retorno = 0;
+        }
+    }
+    return retorno;
+}
