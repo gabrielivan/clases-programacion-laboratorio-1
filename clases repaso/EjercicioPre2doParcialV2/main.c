@@ -28,15 +28,16 @@ int main()
 {
     // Definir lista de empleados
     LinkedList* listaEmpleados;
-    FILE* file = fopen("data.csv","r");
 
     // Crear lista empledos
 
     listaEmpleados = ll_newLinkedList();
+    //printf("%d",listaEmpleados->size);
 
     // Leer empleados de archivo data.csv
-    if(parser_parseEmpleados(file,listaEmpleados)== 0)
+    if(parser_parseEmpleados("data.csv",listaEmpleados)== 0)
     {
+        //printf("%d",listaEmpleados->size);
         // Calcular sueldos
         printf("Calculando sueldos de empleados\n");
 

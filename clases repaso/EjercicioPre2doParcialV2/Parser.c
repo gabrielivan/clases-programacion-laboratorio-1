@@ -13,26 +13,31 @@ int parser_parseEmpleados(char* fileName, LinkedList* listaEmpleados)
     char* bufferName;
     char* bufferHorasTrabajadas;
     char bufferFile[BUFFER];
-    Empleado* Empleado;
+    Empleado* pEmpleado;
     FILE* auxFile = fopen(fileName,"r");
 
     if(auxFile != NULL)
     {
         fgets(bufferFile,sizeof(bufferFile),auxFile);
+        //printf("%s",bufferFile);
 
         if(bufferFile != NULL)
         {
             strtok(bufferFile,"\n");
             while(!feof(auxFile))
             {
+                fgets(bufferFile,sizeof(bufferFile),auxFile);
                 bufferId = strtok(bufferFile,",");
+                //printf("%s\n",bufferId);
                 bufferName = strtok(NULL,",");
-                bufferHorasTrabajadas = strtok(NULL,"\n");
+               // printf("%s\n",bufferName);
+                bufferHorasTrabajadas = strtok(NULL,";");
+                //printf("%s\n",bufferHorasTrabajadas);
 
-                if(Empleado != NULL)
+                if(pEmpleado != NULL)
                 {
-                    Empleado = Empleado_newConParametros(bufferId,bufferName,bufferHorasTrabajadas,0);
-                    ll_add(listaEmpleados,Empleado);
+                    pEmpleado = Empleado_newConParametros(bufferId,bufferName,bufferHorasTrabajadas,"1000");
+                    ll_add(listaEmpleados,pEmpleado);
                     retorno = 0;
                 }
             }

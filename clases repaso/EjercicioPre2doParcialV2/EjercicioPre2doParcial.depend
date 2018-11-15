@@ -59,3 +59,37 @@
 	"LinkedList.h"
 	"Empleado.h"
 
+1542298060 source:d:\clases-programacion-laboratorio-1-master\clases repaso\ejerciciopre2doparcialv2\empleado.c
+	"Empleado.h"
+	"LinkedList.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1542298060 d:\clases-programacion-laboratorio-1-master\clases repaso\ejerciciopre2doparcialv2\empleado.h
+
+1542298060 d:\clases-programacion-laboratorio-1-master\clases repaso\ejerciciopre2doparcialv2\linkedlist.h
+
+1542298060 source:d:\clases-programacion-laboratorio-1-master\clases repaso\ejerciciopre2doparcialv2\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1542323022 source:d:\clases-programacion-laboratorio-1-master\clases repaso\ejerciciopre2doparcialv2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Empleado.h"
+	"LinkedList.h"
+	"Parser.h"
+
+1542298060 d:\clases-programacion-laboratorio-1-master\clases repaso\ejerciciopre2doparcialv2\parser.h
+	"LinkedList.h"
+
+1542322972 source:d:\clases-programacion-laboratorio-1-master\clases repaso\ejerciciopre2doparcialv2\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Empleado.h"
+
