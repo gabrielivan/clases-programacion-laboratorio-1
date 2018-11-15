@@ -28,16 +28,19 @@ int main()
 {
     // Definir lista de empleados
     LinkedList* listaEmpleados;
+    FILE* file = fopen("data.csv","r");
 
     // Crear lista empledos
-    //...
+
+    listaEmpleados = ll_newLinkedList();
 
     // Leer empleados de archivo data.csv
-    if(parser_parseEmpleados("data.csv",listaEmpleados)==1)
+    if(parser_parseEmpleados(file,listaEmpleados)== 0)
     {
         // Calcular sueldos
         printf("Calculando sueldos de empleados\n");
-        //ll_map(listaEmpleados,em_calcularSueldo);
+
+        ll_map(listaEmpleados,Empleado_calcularSueldo);
 
         // Generar archivo de salida
         if(generarArchivoSueldos("sueldos.csv",listaEmpleados)==1)
@@ -48,7 +51,7 @@ int main()
             printf("Error generando archivo\n");
     }
     else
-        printf("Error leyando empleados\n");
+        printf("Error leyendo empleados\n");
 
 
     return 0;
