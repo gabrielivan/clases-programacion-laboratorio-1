@@ -1,0 +1,105 @@
+# depslib dependency file v1.0
+1529542742 source:d:\ejerciciopre2doparcialv2\empleado.c
+	"Empleado.h"
+
+1542156168 d:\ejerciciopre2doparcialv2\empleado.h
+
+1542155576 source:d:\ejerciciopre2doparcialv2\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1542148120 d:\ejerciciopre2doparcialv2\linkedlist.h
+
+1542155690 source:d:\ejerciciopre2doparcialv2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Empleado.h"
+	"LinkedList.h"
+	"Parser.h"
+
+1542155609 d:\ejerciciopre2doparcialv2\parser.h
+	"LinkedList.h"
+
+1542155658 source:d:\ejerciciopre2doparcialv2\parser.c
+	"LinkedList.h"
+
+1542296421 source:c:\users\admin\desktop\ejerciciopre2doparcialv2\empleado.c
+	"Empleado.h"
+	"LinkedList.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1542296357 c:\users\admin\desktop\ejerciciopre2doparcialv2\empleado.h
+
+1542135548 source:c:\users\admin\desktop\ejerciciopre2doparcialv2\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1542135548 c:\users\admin\desktop\ejerciciopre2doparcialv2\linkedlist.h
+
+1542297369 source:c:\users\admin\desktop\ejerciciopre2doparcialv2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Empleado.h"
+	"LinkedList.h"
+	"Parser.h"
+
+1542297902 c:\users\admin\desktop\ejerciciopre2doparcialv2\parser.h
+	"LinkedList.h"
+
+1542297878 source:c:\users\admin\desktop\ejerciciopre2doparcialv2\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Empleado.h"
+
+1542329503 source:d:\clases-programacion-laboratorio-1-master\clases repaso\ejerciciopre2doparcialv2\empleado.c
+	"Empleado.h"
+	"LinkedList.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1542324147 d:\clases-programacion-laboratorio-1-master\clases repaso\ejerciciopre2doparcialv2\empleado.h
+
+1542298060 d:\clases-programacion-laboratorio-1-master\clases repaso\ejerciciopre2doparcialv2\linkedlist.h
+
+1542298060 source:d:\clases-programacion-laboratorio-1-master\clases repaso\ejerciciopre2doparcialv2\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1542324275 source:d:\clases-programacion-laboratorio-1-master\clases repaso\ejerciciopre2doparcialv2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Empleado.h"
+	"LinkedList.h"
+	"Parser.h"
+
+1542298060 d:\clases-programacion-laboratorio-1-master\clases repaso\ejerciciopre2doparcialv2\parser.h
+	"LinkedList.h"
+
+1542322972 source:d:\clases-programacion-laboratorio-1-master\clases repaso\ejerciciopre2doparcialv2\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Empleado.h"
+
+1542327965 source:d:\clases-programacion-laboratorio-1-master\clases repaso\ejerciciopre2doparcialv2\utn.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1542327965 d:\clases-programacion-laboratorio-1-master\clases repaso\ejerciciopre2doparcialv2\utn.h
+
