@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1542398910 source:c:\users\admin\desktop\tp4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Empleado.h"
+	"utn.h"
+
+1542308470 source:c:\users\admin\desktop\tp4\empleado.c
+	"Empleado.h"
+	"LinkedList.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1542308470 c:\users\admin\desktop\tp4\empleado.h
+
+1542308470 c:\users\admin\desktop\tp4\linkedlist.h
+
+1542308470 c:\users\admin\desktop\tp4\utn.h
+
+1542398292 source:c:\users\admin\desktop\tp4\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1542308470 source:c:\users\admin\desktop\tp4\utn.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1542308470 c:\users\admin\desktop\tp4\parser.h
+	"LinkedList.h"
+
+1542372192 source:c:\users\admin\desktop\tp4\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Empleado.h"
+
+1542398589 c:\users\admin\desktop\tp4\controller.h
+
+1542398792 source:c:\users\admin\desktop\tp4\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Empleado.h"
+	"parser.h"
+	"utn.h"
+
