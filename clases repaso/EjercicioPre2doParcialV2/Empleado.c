@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "utn.h"
 
 /**
 *\brief Reservar espacio en memoria para un elemento
@@ -51,17 +52,29 @@ Empleado* Empleado_newConParametros(char* id,char* nombre,char* horasTrabajadas,
 {
     Empleado* this;
     this = Empleado_new();
+    int idClienteInt;
+    int horasTrabajadasInt;
+    int sueldoInt;
+    char auxNombre[1024];
 
-    int idClienteInt = atoi(id);
-    int horasTrabajadasInt = atoi(horasTrabajadas);
-    int sueldoInt = atoi(sueldo);
+    if(EsEntero(id,1024)&& EsEntero(horasTrabajadas,1024)&& EsEntero(sueldo,1024)&& EsNombre(nombre,1024))
+    {
+        idClienteInt = atoi(id);
+        horasTrabajadasInt = atoi(horasTrabajadas);
+        sueldoInt = atoi(sueldo);
+        strcpy(auxNombre,nombre);
+        if(
+        !Empleado_setId(this,idClienteInt)&&
+        !Empleado_setNombre(this,auxNombre)&&
+        !Empleado_setHorasTrabajadas(this,horasTrabajadasInt)&&
+        !Empleado_setSueldo(this,sueldoInt))
+            return this;
+    }
+    else
+    {
+        printf("%s %s %s %s\n",id,nombre,horasTrabajadas,sueldo);
+    }
 
-    if(
-    !Empleado_setId(this,idClienteInt)&&
-    !Empleado_setNombre(this,nombre)&&
-    !Empleado_setHorasTrabajadas(this,horasTrabajadasInt)&&
-    !Empleado_setSueldo(this,sueldoInt))
-        return this;
 
     Empleado_delete(this);
     return NULL;

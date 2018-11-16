@@ -335,9 +335,10 @@ int utn_getNumeroConComa(float* pResultado,
     int tieneMenos = 0;
     char stringIngresado[STRINGLEN];//aca se guarda lo que ingreso como string
     float numero;
+    int i,j;
     printf("%s",mensaje);
 
-     for(int i = 0;i<reintentos;i++)
+     for(i = 0;i<reintentos;i++)
     {
         validado = 1;
         tienePunto = 0;
@@ -345,7 +346,7 @@ int utn_getNumeroConComa(float* pResultado,
         limpiarMemoria();
         fgets(stringIngresado, STRINGLEN, stdin);//pido un string con limite de caracters (STRINGLEN)
 
-        for (int j=0; j<strlen(stringIngresado)-1; j++)//recorro caracter por caracter
+        for (j=0; j<strlen(stringIngresado)-1; j++)//recorro caracter por caracter
         {
             if (stringIngresado[j] < '0' || stringIngresado[j] > '9')
             {
@@ -459,16 +460,17 @@ int utn_getNumero(int* pResultado,
     int numero;
     int validado = 1;
     int hayUnMenos = 0;
+    int i,j;
 
     printf("%s",mensaje);
 
-     for(int i = 0;i<reintentos;i++)
+     for(i = 0;i<reintentos;i++)
     {
         validado = 1;
         limpiarMemoria();
         fgets(stringIngresado, STRINGLEN, stdin);//pido un string con limite de caracters (STRINGLEN)
 
-        for (int j=0; j<strlen(stringIngresado)-1; j++)//recorro caracter por caracter
+        for (j=0; j<strlen(stringIngresado)-1; j++)//recorro caracter por caracter
         {
             if (stringIngresado[j] < '0' || stringIngresado[j] > '9')//no esta en rango
             {
@@ -523,10 +525,11 @@ int utn_getCuit(char* pResultado,
 {
     char stringIngresado[14];//aca se guarda lo que ingreso como string
     int validado = 1;//true
+    int i,j;
 
     printf("%s",mensaje);
 
-     for(int i = 0;i<reintentos;i++)
+     for(i = 0;i<reintentos;i++)
     {
         validado = 1;
         limpiarMemoria();
@@ -538,7 +541,7 @@ int utn_getCuit(char* pResultado,
             printf("%s ",mensajeError);
             continue;
         }
-        for (int j=0; j<strlen(stringIngresado)-2; j++)//recorro caracter por caracter (hasta el caracter numero 13 = posicion 12
+        for (j=0; j<strlen(stringIngresado)-2; j++)//recorro caracter por caracter (hasta el caracter numero 13 = posicion 12
         {
              if(j == 2 || j == 11)
              {
@@ -782,7 +785,44 @@ int utn_getFecha(   char *pFecha, int limite, char *mensaje,
     return retorno;
 }
 
+int EsEntero(char *pBuffer, int limite)
+{
+    int retorno = 0;
+    int i;
+    if  ((pBuffer != NULL && limite > 0 && strlen(pBuffer) > 0) &&
+        (pBuffer[0] == '-' || pBuffer[0] == '+' ||
+        (pBuffer[0]>='0' && pBuffer[0]<='9')))
+    {
+        retorno = 1;
+        for(i=1; i < limite && pBuffer[i] != '\0'; i++)
+        {
+            if (!(pBuffer[i]>='0' && pBuffer[i]<='9'))
+            {
+                retorno = 0;
+                break;
+            }
+        }
+    }
+    return retorno;
+}
 
-
+int EsNombre(char* pBuffer,int limite)
+{
+    int retorno = 0;
+    int i;
+    if(pBuffer != NULL && limite > 0)
+    {
+        retorno = 1;
+        for(i=0;i < limite && pBuffer[i] != '\0';i++)
+        {
+            if((tolower(pBuffer[i]) < 'a' || tolower(pBuffer[i]) > 'z') && pBuffer[i]!= ' ')
+            {
+                retorno = 0;
+                break;
+            }
+        }
+    }
+    return retorno;
+}
 
 

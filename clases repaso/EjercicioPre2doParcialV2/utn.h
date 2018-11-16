@@ -53,4 +53,7 @@ int utn_getCelularArgentino(char *pCelular,
                             char *mensajeError,
                             int reintentos);
 
+int EsEntero(char *pBuffer, int limite);
+int EsNombre(char* pBuffer,int limite);
+
 #endif // UTN_H_INCLUDED

@@ -34,9 +34,10 @@ int parser_parseEmpleados(char* fileName, LinkedList* listaEmpleados)
                 bufferHorasTrabajadas = strtok(NULL,";");
                 //printf("%s\n",bufferHorasTrabajadas);
 
+                pEmpleado = Empleado_newConParametros(bufferId,bufferName,bufferHorasTrabajadas,"1000");
+
                 if(pEmpleado != NULL)
                 {
-                    pEmpleado = Empleado_newConParametros(bufferId,bufferName,bufferHorasTrabajadas,"1000");
                     ll_add(listaEmpleados,pEmpleado);
                     retorno = 0;
                 }
