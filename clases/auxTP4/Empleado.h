@@ -34,5 +34,6 @@ int Empleado_getAll(Empleado* this,char* nombre,int* horas,int* sueldo,int* id);
 
 int Empleado_calcularSueldo(void* pEmpleado);
 int Empleado_mostrar(void* pEmpleado);
+Empleado* Empleado_getById(void* listaEmpleados,int idIngresado);
 
 #endif // EMPLEADO_H_INCLUDED

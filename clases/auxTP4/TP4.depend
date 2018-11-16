@@ -54,3 +54,58 @@
 	"parser.h"
 	"utn.h"
 
+1542401138 source:c:\users\admin\desktop\auxtp4\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Empleado.h"
+	"parser.h"
+	"utn.h"
+
+1542308470 c:\users\admin\desktop\auxtp4\linkedlist.h
+
+1542400779 c:\users\admin\desktop\auxtp4\empleado.h
+
+1542308470 c:\users\admin\desktop\auxtp4\parser.h
+	"LinkedList.h"
+
+1542308470 c:\users\admin\desktop\auxtp4\utn.h
+
+1542400788 source:c:\users\admin\desktop\auxtp4\empleado.c
+	"Empleado.h"
+	"LinkedList.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1542398292 source:c:\users\admin\desktop\auxtp4\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1542372192 source:c:\users\admin\desktop\auxtp4\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Empleado.h"
+
+1542308470 source:c:\users\admin\desktop\auxtp4\utn.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1542400871 source:c:\users\admin\desktop\auxtp4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Empleado.h"
+	"utn.h"
+
+1542399913 c:\users\admin\desktop\auxtp4\controller.h
+

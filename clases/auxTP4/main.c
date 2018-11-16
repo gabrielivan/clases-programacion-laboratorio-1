@@ -20,8 +20,9 @@ int main()
     int option;
     LinkedList* listaEmpleados = ll_newLinkedList();
     LinkedList* listaNuevaEmpleados;
+    int flag =0;
     do{
-        utn_getNumero(&option, "\n 01- .\n 02- .\n 03-Alta de empleado\n 04-Modificar datos de empleado\n 05-Baja de empleado\n 06-Listar empleados\n 07-Ordenar empleados\n 08- .\n 09- .\n 10-Salir\n","Ingrese un numero valido\n",1,11,1);
+        utn_getNumero(&option, "\n 01- .\n 02- .\n 03-Alta de empleado\n 04-Modificar datos de empleado\n 05-Baja de empleado\n 06-Listar empleados\n 07-Ordenar empleados\n 08- .\n 09- .\n 10-Salir\n","Ingrese un numero valido\n",1,12,1);
         switch(option)
         {
             case 1:
@@ -63,7 +64,11 @@ int main()
                 }
                 break;
             case 6:
-                   if(ll_isEmpty(listaEmpleados))
+                   if(flag)
+                   {
+                       printf("No hay lista");
+                   }
+                   else if(ll_isEmpty(listaEmpleados))
                    {
                        printf("No se puede listar el vacio!");
                    }
@@ -93,15 +98,20 @@ int main()
 
             case 9:
                 controller_borrarTodaLaLista(listaEmpleados);
+                flag=1;
                 break;
 
             case 10:
                 controller_ListarEmpleados(listaNuevaEmpleados);
                 break;
+
+            case 11:
+                controller_existeEmpleado(listaEmpleados);
+                break;
         }
      pause();
      limpiarPantalla();
-    }while(option != 11);
+    }while(option != 12);
     return 0;
 }
 

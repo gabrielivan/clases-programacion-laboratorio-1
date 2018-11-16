@@ -368,3 +368,32 @@ int Empleado_mostrar(void* pEmpleado)
     }
     return retorno;
 }
+
+/**
+*\brief Se recorre array para encontrar elemento por ID
+*\param pArrayListEmployee Es el array para recorrer
+*\param idIngresado Es ID para encontrar
+*\return Retorna el elemento sino retorna NULL
+*/
+Empleado* Empleado_getById(void* listaEmpleados,int idIngresado)
+{
+    Empleado* retorno = NULL;
+    int i;
+    Empleado* auxEmpleado;
+    int auxID = 0;
+
+    if(listaEmpleados != NULL)
+    {
+        for(i=0;i<ll_len(listaEmpleados);i++)//Recorro todo el array hasta el LEN
+        {
+            auxEmpleado = ll_get(listaEmpleados,i);//Obtengo el elemento del array en posicion index
+            Empleado_getId(auxEmpleado,&auxID);//Obtengo el ID del elemento
+            if(auxID == idIngresado)
+            {
+                retorno = auxEmpleado;
+                break;
+            }
+        }
+    }
+    return retorno;
+}

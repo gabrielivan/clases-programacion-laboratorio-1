@@ -194,7 +194,7 @@ int controller_borrarTodosLosEmpleados(LinkedList* listaEmpleados)
 int controller_borrarTodaLaLista(LinkedList* listaEmpleados)
 {
     int retorno = -1;
-    if(listaEmpleados != NULL && listaEmpleados -> size > 0)
+    if(listaEmpleados != NULL && listaEmpleados -> size >= 0)
     {
         if(!ll_deleteLinkedList(listaEmpleados))
         {
@@ -216,4 +216,31 @@ LinkedList* controller_clonarLista(LinkedList* listaEmpleados)
         retornoAux = listaNuevaDeEmpleados;
     }
     return retornoAux;
+}
+
+int controller_existeEmpleado(LinkedList* listaEmpleados)
+{
+    int retorno = -1;
+    Empleado* pEmpleado;
+    int id;
+    utn_getNumero(&id,"Ingrese el id del empleado a buscar.. ","Error! ",0,10000,2);
+    pEmpleado = Empleado_getById(listaEmpleados,id);
+
+    if(listaEmpleados != NULL && listaEmpleados -> size > 0)
+    {
+        if(ll_contains(listaEmpleados,pEmpleado))
+        {
+            printf("\nEl empleado se encuentra en la lista");
+            printf("\nID: %d",pEmpleado->id);
+            printf("\nNombre: %s",pEmpleado->nombre);
+            printf("\nHoras-Trabajadas: %d",pEmpleado->horasTrabajadas);
+            printf("\nSueldo: %d",pEmpleado->sueldo);
+            retorno = 0;
+        }
+        else if(ll_contains(listaEmpleados,pEmpleado)==0)
+        {
+            printf("El empleado no se encuentra en la lista");
+        }
+    }
+    return retorno;
 }
