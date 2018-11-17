@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1542457927 source:d:\pruebaarchivos\empleado.c
+	"Empleado.h"
+	"LinkedList.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1542401236 d:\pruebaarchivos\empleado.h
+
+1542401236 d:\pruebaarchivos\linkedlist.h
+
+1542401236 d:\pruebaarchivos\utn.h
+
+1542401236 source:d:\pruebaarchivos\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1542457737 source:d:\pruebaarchivos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Empleado.h"
+	"LinkedList.h"
+	"Parser.h"
+
+1542401236 d:\pruebaarchivos\parser.h
+	"LinkedList.h"
+
+1542401236 source:d:\pruebaarchivos\utn.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1542457694 source:d:\pruebaarchivos\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Empleado.h"
+
