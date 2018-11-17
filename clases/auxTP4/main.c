@@ -20,98 +20,95 @@ int main()
     int option;
     LinkedList* listaEmpleados = ll_newLinkedList();
     LinkedList* listaNuevaEmpleados;
-    int flag =0;
-    do{
+
+    do
+    {
+        printf("\nComienzo%d\n",ll_len(listaEmpleados));
         utn_getNumero(&option, "\n 01- .\n 02- .\n 03-Alta de empleado\n 04-Modificar datos de empleado\n 05-Baja de empleado\n 06-Listar empleados\n 07-Ordenar empleados\n 08- .\n 09- .\n 10-Salir\n","Ingrese un numero valido\n",1,12,1);
         switch(option)
         {
-            case 1:
-                listaNuevaEmpleados = controller_clonarLista(listaEmpleados);
-                printf("\n%d",listaNuevaEmpleados->size);
-                break;
-            case 2:
-                printf("\n%d",listaNuevaEmpleados->size);
-                break;
-            case 3:
-                if(!controller_agregarEmpleado(listaEmpleados))
-                {
-                    printf("Empleado agregado correctamente!");
-                }
-                else{
-                    printf("No se pudo agregar el empleado");
-                }
-                break;
-            case 4:
+        case 1:
+            listaNuevaEmpleados = controller_clonarLista(listaEmpleados);
+            printf("\n%d",listaNuevaEmpleados->size);
+            break;
+        case 2:
+            printf("\n%d",listaNuevaEmpleados->size);
+            break;
+        case 3:
+            if(!controller_agregarEmpleado(listaEmpleados))
+            {
+                printf("Empleado agregado correctamente!");
+            }
+            else
+            {
+                printf("No se pudo agregar el empleado");
+            }
+            break;
+        case 4:
+            controller_ListarEmpleados(listaEmpleados);
+            if(!controller_editarEmpleado(listaEmpleados))
+            {
+                printf("Empleado modificado correctamente!");
+            }
+            else
+            {
+                printf("No se pudo modificar el empleado");
+            }
+            break;
+        case 5:
+            controller_ListarEmpleados(listaEmpleados);
+            if(!controller_borrarEmpleado(listaEmpleados))
+            {
+                printf("El empleado se borro correctamente");
+            }
+            else
+            {
+                printf("El empleado no se borro correctamente");
+            }
+            break;
+        case 6:
+            if(ll_isEmpty(listaEmpleados))
+            {
+                printf("No se puede listar el vacio!");
+            }
+            else if(ll_isEmpty(listaEmpleados)== 0)
+            {
                 controller_ListarEmpleados(listaEmpleados);
-                if(!controller_editarEmpleado(listaEmpleados))
-                {
-                    printf("Empleado modificado correctamente!");
-                }
-                else
-                {
-                    printf("No se pudo modificar el empleado");
-                }
-                break;
-            case 5:
-                controller_ListarEmpleados(listaEmpleados);
-                if(!controller_borrarEmpleado(listaEmpleados))
-                {
-                    printf("El empleado se borro correctamente");
-                }
-                else
-                {
-                    printf("El empleado no se borro correctamente");
-                }
-                break;
-            case 6:
-                   if(flag)
-                   {
-                       printf("No hay lista");
-                   }
-                   else if(ll_isEmpty(listaEmpleados))
-                   {
-                       printf("No se puede listar el vacio!");
-                   }
-                   else if(ll_isEmpty(listaEmpleados)== 0)
-                   {
-                      controller_ListarEmpleados(listaEmpleados);
-                   }
-                   else
-                   {
-                       printf("Error al listar!");
-                   }
-                break;
-            case 7:
-                    if(!controller_ordenarEmpleados(listaEmpleados))
-                    {
-                        printf("Se ordeno correctamente");
-                    }
-                    else
-                    {
-                        printf("No se pudo ordenar");
-                    }
-                break;
+            }
+            else
+            {
+                printf("Error al listar!");
+            }
+            break;
+        case 7:
+            if(!controller_ordenarEmpleados(listaEmpleados))
+            {
+                printf("Se ordeno correctamente");
+            }
+            else
+            {
+                printf("No se pudo ordenar");
+            }
+            break;
 
-            case 8:
-                controller_borrarTodosLosEmpleados(listaEmpleados);
-                break;
+        case 8:
+            controller_borrarTodosLosEmpleados(listaEmpleados);
+            break;
 
-            case 9:
-                controller_borrarTodaLaLista(listaEmpleados);
-                flag=1;
-                break;
+        case 9:
+            controller_borrarTodaLaLista(listaEmpleados);
+            break;
+        case 10:
+            controller_ListarEmpleados(listaNuevaEmpleados);
+            break;
 
-            case 10:
-                controller_ListarEmpleados(listaNuevaEmpleados);
-                break;
-
-            case 11:
-                controller_existeEmpleado(listaEmpleados);
-                break;
+        case 11:
+            controller_existeEmpleado(listaEmpleados);
+            break;
         }
-     pause();
-     limpiarPantalla();
-    }while(option != 12);
+        pause();
+    }
+    while(option != 12);
     return 0;
 }
 

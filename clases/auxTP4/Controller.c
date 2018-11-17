@@ -194,7 +194,7 @@ int controller_borrarTodosLosEmpleados(LinkedList* listaEmpleados)
 int controller_borrarTodaLaLista(LinkedList* listaEmpleados)
 {
     int retorno = -1;
-    if(listaEmpleados != NULL && listaEmpleados -> size >= 0)
+    if(listaEmpleados != NULL)
     {
         if(!ll_deleteLinkedList(listaEmpleados))
         {

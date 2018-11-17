@@ -86,7 +86,7 @@ static Node* getNode(LinkedList* this, int nodeIndex)
     if(this != NULL && ll_len(this) > 0 && nodeIndex < ll_len(this) && nodeIndex >= 0)
     {
         pNode = this->pFirstNode;//caso particular
-        for(i=0;i< nodeIndex;i++)//reccore hasta uno antes del proximo
+        for(i=0; i< nodeIndex; i++) //reccore hasta uno antes del proximo
         {
             pNode = pNode -> pNextNode;//nodo tiene la direccion del proximo nodo
         }
@@ -125,8 +125,8 @@ static int addNode(LinkedList* this, int nodeIndex,void* pElement) //size de la 
 
     if(this != NULL && nodeIndex >= 0 && nodeIndex <= ll_len(this))
     {
-       //estoy en condiciones de agregar un nodo.
-       //para agregar un nodop tengo que preguntar en que posicion esta.
+        //estoy en condiciones de agregar un nodo.
+        //para agregar un nodop tengo que preguntar en que posicion esta.
         if(this->pFirstNode == NULL && nodeIndex == 0)//D
         {
             //agregar el primer nodo.
@@ -158,7 +158,7 @@ static int addNode(LinkedList* this, int nodeIndex,void* pElement) //size de la 
         }
         else if(this->pFirstNode != NULL && nodeIndex == ll_len(this))//C
         {
-             //agrego al final
+            //agrego al final
             Node* lastNode = getNode(this,nodeIndex - 1);//traigo al ultimo nodo
             lastNode->pNextNode = newNode;   //el ultimo nodo tiene como siguiente al nuevo
 
@@ -273,18 +273,22 @@ int ll_remove(LinkedList* this,int index)
     int returnAux = -1;
     Node* nodoAux = getNode(this,index);
 
+    printf("Entro :v");
+    printf("INDEX %d: ", index);
+    printf("len: %d",ll_len(this));
+    getchar();
+
     if(this != NULL && index >= 0 && index < ll_len(this))
     {
-       //estoy en condiciones de borrar un elemento
-       //para borrar un nodo tengo que preguntar en que posicion esta.
+        //estoy en condiciones de borrar un elemento
+        //para borrar un nodo tengo que preguntar en que posicion esta.
         if(index == 0)//D
         {
             //borro el primer nodo.
             this->pFirstNode = nodoAux->pNextNode;
             free(nodoAux);
-            this->size = ll_len(this) - 1;
+            this->size--;
         }
-
         else if(index > 0)//B
         {
             //borro entre dos nodos
@@ -316,7 +320,8 @@ int ll_clear(LinkedList* this)
 
     if(this != NULL && !ll_isEmpty(this))
     {
-        for(i = 0;i < len;i++)
+        printf("len antes %d",len);
+        for(i = len -1; i >= 0; i--)
         {
             ll_remove(this,i);
         }
@@ -340,7 +345,9 @@ int ll_deleteLinkedList(LinkedList* this)
 
     if(this != NULL)
     {
+        printf("%d\n",ll_len(this));
         ll_clear(this);
+        printf("%d\n",ll_len(this));
         free(this);
         returnAux = 0;
     }
@@ -365,7 +372,7 @@ int ll_indexOf(LinkedList* this, void* pElement)
 
     if(this!=NULL)
     {
-        for(i = 0;i < len; i++)
+        for(i = 0; i < len; i++)
         {
             nodoAux = getNode(this,i);
             if(nodoAux ->pElement == pElement)
@@ -489,15 +496,15 @@ int ll_containsAll(LinkedList* this,LinkedList* this2)
 
     if(this != NULL && this2 != NULL)
     {
-      returnAux = 1;
-      for(i = 0; i < ll_len(this2); i++)
-      {
-         pElement = ll_get(this2,i);
-         if(!ll_contains(this,pElement))
-         {
-             returnAux = 0;
-         }
-      }
+        returnAux = 1;
+        for(i = 0; i < ll_len(this2); i++)
+        {
+            pElement = ll_get(this2,i);
+            if(!ll_contains(this,pElement))
+            {
+                returnAux = 0;
+            }
+        }
     }
 
     return returnAux;
@@ -522,7 +529,7 @@ LinkedList* ll_subList(LinkedList* this,int from,int to)
     if(this != NULL && from >= 0 && to <= this->size)
     {
         cloneArray = ll_newLinkedList();
-        for(i=from;i < to;i++)
+        for(i=from; i < to; i++)
         {
             pElement = ll_get(this,i);
             ll_add(cloneArray,pElement);
@@ -553,7 +560,7 @@ LinkedList* ll_clone(LinkedList* this)
  * \return int Retorna  (-1) Error: si el puntero a la listas es NULL
                                 ( 0) Si ok
  */
-int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order)
+int ll_sort(LinkedList* this, int (*pFunc)(void*,void*), int order)
 {
     int returnAux = -1;
     int i;
@@ -567,17 +574,17 @@ int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order)
             i = 0;
             auxNode = getNode(this,i);//hago un nodo auxiliar con el indice de i(0).
             flagSwap = 0;//lo inisializo
-            for(i=0;i<ll_len(this)-1;i++)//recorro toda la lista
+            for(i=0; i<ll_len(this)-1; i++) //recorro toda la lista
             {
                 if(i!= 0)
                 {
                     auxNode = auxNode->pNextNode;
                 }
                 if((order == 0 && auxNode->pElement != NULL && auxNode->pNextNode->pElement != NULL && (*pFunc)(auxNode->pElement,auxNode->pNextNode->pElement)== -1)|| //pregunta si el orden es decendente y el primer elemento y el segundo son distintos de Null y, (si la funcion criterio devuelve -1 significa que el primer elemento es mas chico que el segundo)
-                   (order == 1 && auxNode->pElement != NULL && auxNode->pNextNode->pElement != NULL && (*pFunc)(auxNode->pElement,auxNode->pNextNode->pElement)== 1))   //pregunta si el orden es acendente y el primer elemento y el segundo son distintos de Null y, (si la funcion criterio devuelve 1 significa que el primer elemento es mas grande que el segundo)
+                        (order == 1 && auxNode->pElement != NULL && auxNode->pNextNode->pElement != NULL && (*pFunc)(auxNode->pElement,auxNode->pNextNode->pElement)== 1))   //pregunta si el orden es acendente y el primer elemento y el segundo son distintos de Null y, (si la funcion criterio devuelve 1 significa que el primer elemento es mas grande que el segundo)
                 {
-                   flagSwap = 1;//es para saber si se itero en esa vuelta
-                   ll_swapElement(this,auxNode);//hace el swap
+                    flagSwap = 1;//es para saber si se itero en esa vuelta
+                    ll_swapElement(this,auxNode);//hace el swap
                 }
 
             }

@@ -109,3 +109,58 @@
 
 1542399913 c:\users\admin\desktop\auxtp4\controller.h
 
+1542459568 source:d:\clases-programacion-laboratorio-1-master\clases\auxtp4\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Empleado.h"
+	"parser.h"
+	"utn.h"
+
+1542401236 d:\clases-programacion-laboratorio-1-master\clases\auxtp4\linkedlist.h
+
+1542401236 d:\clases-programacion-laboratorio-1-master\clases\auxtp4\empleado.h
+
+1542401236 d:\clases-programacion-laboratorio-1-master\clases\auxtp4\parser.h
+	"LinkedList.h"
+
+1542401236 d:\clases-programacion-laboratorio-1-master\clases\auxtp4\utn.h
+
+1542401236 source:d:\clases-programacion-laboratorio-1-master\clases\auxtp4\empleado.c
+	"Empleado.h"
+	"LinkedList.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1542460570 source:d:\clases-programacion-laboratorio-1-master\clases\auxtp4\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1542460131 source:d:\clases-programacion-laboratorio-1-master\clases\auxtp4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Empleado.h"
+	"utn.h"
+
+1542401236 d:\clases-programacion-laboratorio-1-master\clases\auxtp4\controller.h
+
+1542401236 source:d:\clases-programacion-laboratorio-1-master\clases\auxtp4\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Empleado.h"
+
+1542401236 source:d:\clases-programacion-laboratorio-1-master\clases\auxtp4\utn.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
