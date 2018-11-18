@@ -470,11 +470,14 @@ int utn_getNumero(int* pResultado,
         limpiarMemoria();
         fgets(stringIngresado, STRINGLEN, stdin);//pido un string con limite de caracters (STRINGLEN)
 
+          if(stringIngresado[i]=='\n')
+            {
+                return -1;
+            }
         for (j=0; j<strlen(stringIngresado)-1; j++)//recorro caracter por caracter
         {
             if (stringIngresado[j] < '0' || stringIngresado[j] > '9')//no esta en rango
             {
-                //soy NaN
                 if(j > 0 || stringIngresado[j] != 45)
                 {
                     validado = 0;
@@ -487,7 +490,6 @@ int utn_getNumero(int* pResultado,
         if(hayUnMenos == 1 && strlen(stringIngresado)-1 == 1)
         {
             validado = 0;
-
         }
         if (validado)
         {

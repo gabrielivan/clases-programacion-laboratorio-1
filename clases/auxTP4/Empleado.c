@@ -70,11 +70,6 @@ Empleado* Empleado_newConParametros(char* id,char* nombre,char* horasTrabajadas,
         !Empleado_setSueldo(this,sueldoInt))
             return this;
     }
-    else
-    {
-        printf("%s %s %s %s\n",id,nombre,horasTrabajadas,sueldo);
-    }
-
 
     Empleado_delete(this);
     return NULL;
@@ -360,9 +355,9 @@ int Empleado_mostrar(void* pEmpleado)
             Empleado_getId(pEmpleado,&auxId);
 
             printf("\nID: %d",auxId);
-            printf(" Nombre: %s",auxNombre);
-            printf(" Sueldo: %d",auxSueldo);
-            printf(" Horas trabajadas: %d",auxHorasTrabajadas);
+            printf("\nNombre: %s",auxNombre);
+            printf("\nSueldo: %d",auxSueldo);
+            printf("\nHoras trabajadas: %d\n",auxHorasTrabajadas);
             retorno = 0;
         }
     }

@@ -48,7 +48,7 @@ int controller_editarEmpleado(LinkedList* listaEmpleados)
 
     if(listaEmpleados != NULL)
     {
-        if(!utn_getNumero(&id,"Ingrese el ID del empleado a modificar: ","Error",0,99999,2))
+        if(!utn_getNumero(&id,"Ingrese el ID del empleado a modificar: ","\nError,reingrese el id: ",0,99999,2))
         {
             for(i = 0;i< ll_len(listaEmpleados);i++)
             {
@@ -87,12 +87,13 @@ int controller_editarEmpleado(LinkedList* listaEmpleados)
  * \return Retorna 0 si se logra realizar la baja sino retorna -1
  *
  */
-int controller_borrarEmpleado(LinkedList* listaEmpleados)
+int controller_borrarEmpleado(LinkedList* listaEmpleados,LinkedList* listaEmpleadosBorrados)
 {
     int retorno = -1;
     int i;
     int id, idAux;
     Empleado* empleado;
+    Empleado* empleadoBorrado;
 
     if(listaEmpleados != NULL)
     {
@@ -105,8 +106,11 @@ int controller_borrarEmpleado(LinkedList* listaEmpleados)
 
                if(idAux == id)
                {
-                    Empleado_delete(empleado);
-                    ll_pop(listaEmpleados,i);
+                    //Empleado_delete(empleado);
+                    empleadoBorrado = ll_pop(listaEmpleados,i);
+                    ll_add(listaEmpleadosBorrados,empleadoBorrado);
+                    printf("\nEl empleado que se acaba de borrar: \n");
+                    Empleado_mostrar(empleado);
                     retorno = 0;
                     break;
                }
@@ -177,10 +181,9 @@ int controller_ordenarEmpleados(LinkedList* listaEmpleados)
     return retorno;
 }
 
-int controller_borrarTodosLosEmpleados(LinkedList* listaEmpleados)
+int controller_borrarTodosLosEmpleados(LinkedList* listaEmpleados,LinkedList* listaEmpleadosBorrados)
 {
     int retorno = -1;
-
     if(listaEmpleados != NULL && listaEmpleados->size > 0)
     {
         if(!ll_clear(listaEmpleados))
@@ -189,18 +192,26 @@ int controller_borrarTodosLosEmpleados(LinkedList* listaEmpleados)
             retorno = 0;
         }
     }
+    else
+    {
+        printf("Error,la lista no contiene empleado/s a borrar\n");
+    }
     return retorno;
 }
-int controller_borrarTodaLaLista(LinkedList* listaEmpleados)
+int controller_borrarTodaLaLista(LinkedList* listaEmpleadosBorrados)
 {
     int retorno = -1;
-    if(listaEmpleados != NULL)
+    if(listaEmpleadosBorrados != NULL)
     {
-        if(!ll_deleteLinkedList(listaEmpleados))
+        if(!ll_deleteLinkedList(listaEmpleadosBorrados))
         {
             printf("\nSe borro la lista con existo!");
             retorno = 0;
         }
+    }
+    else
+    {
+        printf("No existe la lista a borrar!\n");
     }
     return retorno;
 }
@@ -209,11 +220,14 @@ LinkedList* controller_clonarLista(LinkedList* listaEmpleados)
 {
     LinkedList* retornoAux = NULL;
     LinkedList* listaNuevaDeEmpleados = NULL;
-    if(listaEmpleados != NULL && listaEmpleados -> size > 0)
+    if(listaEmpleados != NULL && listaEmpleados -> size >= 0)
     {
         listaNuevaDeEmpleados = ll_clone(listaEmpleados);
-        printf("\nSe clono la lista con existo!");
-        retornoAux = listaNuevaDeEmpleados;
+        if(ll_containsAll(listaNuevaDeEmpleados,listaEmpleados))
+        {
+            printf("\nSe clono la lista con existo!");
+            retornoAux = listaNuevaDeEmpleados;
+        }
     }
     return retornoAux;
 }
@@ -223,11 +237,11 @@ int controller_existeEmpleado(LinkedList* listaEmpleados)
     int retorno = -1;
     Empleado* pEmpleado;
     int id;
-    utn_getNumero(&id,"Ingrese el id del empleado a buscar.. ","Error! ",0,10000,2);
-    pEmpleado = Empleado_getById(listaEmpleados,id);
-
     if(listaEmpleados != NULL && listaEmpleados -> size > 0)
     {
+        utn_getNumero(&id,"Ingrese el id del empleado a buscar.. ","Error! ",0,10000,2);
+        pEmpleado = Empleado_getById(listaEmpleados,id);
+
         if(ll_contains(listaEmpleados,pEmpleado))
         {
             printf("\nEl empleado se encuentra en la lista");
@@ -242,5 +256,92 @@ int controller_existeEmpleado(LinkedList* listaEmpleados)
             printf("El empleado no se encuentra en la lista");
         }
     }
+    else
+    {
+        printf("No hay empleado a buscar\n");
+    }
     return retorno;
+}
+
+int controller_reingresarEmpleado(LinkedList* listaEmpleados,LinkedList* listaEmpleadosBorrados)
+{
+    int retorno = -1;
+    int i;
+    int id, idAux;
+    Empleado* empleado;
+    Empleado* empleadoAnterior;
+    int indexEmpleadoAnterior;
+
+    if(listaEmpleadosBorrados != NULL && listaEmpleados != NULL)
+    {
+        if(!utn_getNumero(&id,"Ingrese el ID del empleado a reingresar: ","\nError,reingrese el id: ",0,99999,2))
+        {
+            for(i = 0;i< ll_len(listaEmpleadosBorrados);i++)
+            {
+               empleado = ll_get(listaEmpleadosBorrados,i);
+               Empleado_getId(empleado,&idAux);
+
+               if(idAux == id)
+               {
+                    empleadoAnterior = Empleado_getById(listaEmpleados,id-1);
+                    indexEmpleadoAnterior = ll_indexOf(listaEmpleados,empleadoAnterior);
+                    ll_push(listaEmpleados,indexEmpleadoAnterior +1 ,empleado);
+                    printf("\nEl empleado que se acaba de reingresar: \n");
+                    Empleado_mostrar(empleado);
+                    ll_remove(listaEmpleadosBorrados,i);
+                    retorno = 0;
+                    break;
+               }
+
+            }
+        }
+
+    }
+    return retorno;
+}
+
+LinkedList* controller_subLista(LinkedList* listaEmpleados)
+{
+    LinkedList* retornoAux = NULL;
+    LinkedList* nuevaSubLista = NULL;
+    int i,j;
+    int idComienzo,idAuxComienzo;
+    int idFinal,idAuxFinal;
+    int indexEmpleadoComienzo;
+    int indexEmpleadoFinal;
+    Empleado* empleadoComiezo;
+    Empleado* empleadoFinal;
+    if(listaEmpleados != NULL && listaEmpleados -> size > 0)
+    {
+        if(!utn_getNumero(&idComienzo,"Ingrese el ID del empleado donde quiere empezar a copiar: ","\nError,reingrese el id: ",0,99999,2))
+        {
+            for(i = 0;i< ll_len(listaEmpleados);i++)
+            {
+               empleadoComiezo = ll_get(listaEmpleados,i);
+               Empleado_getId(empleadoComiezo,&idAuxComienzo);
+               if(idAuxComienzo == idComienzo)
+               {
+                   indexEmpleadoComienzo = ll_indexOf(listaEmpleados,empleadoComiezo);
+                   break;
+               }
+            }
+        }
+        if(!utn_getNumero(&idFinal,"Ingrese el ID del empleado donde quiere terminar de copiar: ","Error",0,99999,2))
+        {
+           for(j = 0;i< ll_len(listaEmpleados);j++)
+            {
+               empleadoFinal = ll_get(listaEmpleados,j);
+               Empleado_getId(empleadoFinal,&idAuxFinal);
+               if(idAuxFinal == idFinal)
+               {
+                   indexEmpleadoFinal = ll_indexOf(listaEmpleados,empleadoFinal);
+                   break;
+               }
+            }
+        }
+        nuevaSubLista = ll_subList(listaEmpleados,indexEmpleadoComienzo,indexEmpleadoFinal + 1);
+        printf("\nSe subdividio la lista con existo!\n");
+        retornoAux = nuevaSubLista;
+    }
+    return retornoAux;
 }

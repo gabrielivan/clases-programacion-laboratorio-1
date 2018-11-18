@@ -273,11 +273,6 @@ int ll_remove(LinkedList* this,int index)
     int returnAux = -1;
     Node* nodoAux = getNode(this,index);
 
-    printf("Entro :v");
-    printf("INDEX %d: ", index);
-    printf("len: %d",ll_len(this));
-    getchar();
-
     if(this != NULL && index >= 0 && index < ll_len(this))
     {
         //estoy en condiciones de borrar un elemento
@@ -320,7 +315,6 @@ int ll_clear(LinkedList* this)
 
     if(this != NULL && !ll_isEmpty(this))
     {
-        printf("len antes %d",len);
         for(i = len -1; i >= 0; i--)
         {
             ll_remove(this,i);
@@ -345,9 +339,7 @@ int ll_deleteLinkedList(LinkedList* this)
 
     if(this != NULL)
     {
-        printf("%d\n",ll_len(this));
         ll_clear(this);
-        printf("%d\n",ll_len(this));
         free(this);
         returnAux = 0;
     }
