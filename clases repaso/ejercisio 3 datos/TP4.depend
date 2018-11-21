@@ -1,0 +1,218 @@
+# depslib dependency file v1.0
+1542737563 source:c:\users\admin\desktop\tp4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Empleado.h"
+	"utn.h"
+	"Parser.h"
+
+1542500626 source:c:\users\admin\desktop\tp4\empleado.c
+	"Empleado.h"
+	"LinkedList.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1542442018 c:\users\admin\desktop\tp4\empleado.h
+
+1542442018 c:\users\admin\desktop\tp4\linkedlist.h
+
+1542442018 c:\users\admin\desktop\tp4\utn.h
+
+1542571235 source:c:\users\admin\desktop\tp4\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1542570041 source:c:\users\admin\desktop\tp4\utn.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1542572918 c:\users\admin\desktop\tp4\parser.h
+
+1542573177 source:c:\users\admin\desktop\tp4\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Empleado.h"
+
+1542573308 c:\users\admin\desktop\tp4\controller.h
+
+1542737453 source:c:\users\admin\desktop\tp4\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Empleado.h"
+	"parser.h"
+	"utn.h"
+
+1542573308 source:c:\users\admin\desktop\auxtp4\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Empleado.h"
+	"parser.h"
+	"utn.h"
+
+1542442018 c:\users\admin\desktop\auxtp4\linkedlist.h
+
+1542442018 c:\users\admin\desktop\auxtp4\empleado.h
+
+1542572918 c:\users\admin\desktop\auxtp4\parser.h
+
+1542442018 c:\users\admin\desktop\auxtp4\utn.h
+
+1542500626 source:c:\users\admin\desktop\auxtp4\empleado.c
+	"Empleado.h"
+	"LinkedList.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1542571235 source:c:\users\admin\desktop\auxtp4\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1542573177 source:c:\users\admin\desktop\auxtp4\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Empleado.h"
+
+1542570041 source:c:\users\admin\desktop\auxtp4\utn.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1542574569 source:c:\users\admin\desktop\auxtp4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Empleado.h"
+	"utn.h"
+	"Parser.h"
+
+1542573308 c:\users\admin\desktop\auxtp4\controller.h
+
+1542459568 source:d:\clases-programacion-laboratorio-1-master\clases\auxtp4\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Empleado.h"
+	"parser.h"
+	"utn.h"
+
+1542401236 d:\clases-programacion-laboratorio-1-master\clases\auxtp4\linkedlist.h
+
+1542401236 d:\clases-programacion-laboratorio-1-master\clases\auxtp4\empleado.h
+
+1542401236 d:\clases-programacion-laboratorio-1-master\clases\auxtp4\parser.h
+	"LinkedList.h"
+
+1542401236 d:\clases-programacion-laboratorio-1-master\clases\auxtp4\utn.h
+
+1542401236 source:d:\clases-programacion-laboratorio-1-master\clases\auxtp4\empleado.c
+	"Empleado.h"
+	"LinkedList.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1542460570 source:d:\clases-programacion-laboratorio-1-master\clases\auxtp4\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1542460131 source:d:\clases-programacion-laboratorio-1-master\clases\auxtp4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Empleado.h"
+	"utn.h"
+
+1542401236 d:\clases-programacion-laboratorio-1-master\clases\auxtp4\controller.h
+
+1542401236 source:d:\clases-programacion-laboratorio-1-master\clases\auxtp4\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Empleado.h"
+
+1542401236 source:d:\clases-programacion-laboratorio-1-master\clases\auxtp4\utn.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1542761005 source:c:\users\alumno\downloads\tp_laboratorio_1-master\tp4\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Empleado.h"
+	"parser.h"
+	"utn.h"
+
+1542738471 c:\users\alumno\downloads\tp_laboratorio_1-master\tp4\linkedlist.h
+
+1542759259 c:\users\alumno\downloads\tp_laboratorio_1-master\tp4\empleado.h
+
+1542738471 c:\users\alumno\downloads\tp_laboratorio_1-master\tp4\parser.h
+
+1542738471 c:\users\alumno\downloads\tp_laboratorio_1-master\tp4\utn.h
+
+1542762061 source:c:\users\alumno\downloads\tp_laboratorio_1-master\tp4\empleado.c
+	"Empleado.h"
+	"LinkedList.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1542738471 source:c:\users\alumno\downloads\tp_laboratorio_1-master\tp4\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1542760254 source:c:\users\alumno\downloads\tp_laboratorio_1-master\tp4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Empleado.h"
+	"utn.h"
+	"Parser.h"
+
+1542738471 c:\users\alumno\downloads\tp_laboratorio_1-master\tp4\controller.h
+
+1542761816 source:c:\users\alumno\downloads\tp_laboratorio_1-master\tp4\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Empleado.h"
+
+1542761734 source:c:\users\alumno\downloads\tp_laboratorio_1-master\tp4\utn.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
