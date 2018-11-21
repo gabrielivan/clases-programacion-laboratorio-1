@@ -26,26 +26,27 @@ int parser_EmployeeFromText(FILE* pFile , LinkedList* pArrayListEmployee)
             if(flagOnce)
             {
                flagOnce = 0;
-               fscanf(pFile,"%[^,],%[^,],%[^,],%[^,]%[^\n]\n",
+               fscanf(pFile,"%[^;];%[^;];%[^;];%[^;];%[^\n]\n",
                                                 bufferId,
                                                 bufferNombre,
                                                 bufferApellido,
                                                 bufferIsEmpty,
                                                 bufferSueldo);
             }
-             fscanf(pFile,"%[^,],%[^,],%[^,],%[^,]%[^\n]\n",
+             fscanf(pFile,"%[^;];%[^;];%[^;];%[^;];%[^\n]\n",
                                                 bufferId,
                                                 bufferNombre,
                                                 bufferApellido,
                                                 bufferIsEmpty,
                                                 bufferSueldo);
 
-
             pEmpleado = Empleado_newConParametros(  bufferId,
                                                     bufferNombre,
                                                     bufferApellido,
                                                     bufferIsEmpty,
                                                     bufferSueldo);
+
+
 
             if(pEmpleado != NULL)
             {

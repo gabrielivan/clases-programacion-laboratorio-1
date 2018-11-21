@@ -795,10 +795,11 @@ int EsEntero(char *pBuffer, int limite)
         (pBuffer[0] == '-' || pBuffer[0] == '+' ||
         (pBuffer[0]>='0' && pBuffer[0]<='9')))
     {
+
         retorno = 1;
         for(i=1; i < limite && pBuffer[i] != '\0'; i++)
         {
-            if (!(pBuffer[i]>='0' && pBuffer[i]<='9'))
+            if (!(pBuffer[i] >= '0' && pBuffer[i]<='9'))
             {
                 retorno = 0;
                 break;

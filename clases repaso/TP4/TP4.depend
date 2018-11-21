@@ -162,7 +162,7 @@
 	<ctype.h>
 	"utn.h"
 
-1542759560 source:c:\users\alumno\downloads\tp_laboratorio_1-master\tp4\controller.c
+1542761005 source:c:\users\alumno\downloads\tp_laboratorio_1-master\tp4\controller.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
@@ -178,7 +178,7 @@
 
 1542738471 c:\users\alumno\downloads\tp_laboratorio_1-master\tp4\utn.h
 
-1542759041 source:c:\users\alumno\downloads\tp_laboratorio_1-master\tp4\empleado.c
+1542762061 source:c:\users\alumno\downloads\tp_laboratorio_1-master\tp4\empleado.c
 	"Empleado.h"
 	"LinkedList.h"
 	<stdio.h>
@@ -192,7 +192,7 @@
 	<string.h>
 	"LinkedList.h"
 
-1542759602 source:c:\users\alumno\downloads\tp_laboratorio_1-master\tp4\main.c
+1542760254 source:c:\users\alumno\downloads\tp_laboratorio_1-master\tp4\main.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
@@ -203,13 +203,13 @@
 
 1542738471 c:\users\alumno\downloads\tp_laboratorio_1-master\tp4\controller.h
 
-1542758829 source:c:\users\alumno\downloads\tp_laboratorio_1-master\tp4\parser.c
+1542761816 source:c:\users\alumno\downloads\tp_laboratorio_1-master\tp4\parser.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
 	"Empleado.h"
 
-1542738471 source:c:\users\alumno\downloads\tp_laboratorio_1-master\tp4\utn.c
+1542761734 source:c:\users\alumno\downloads\tp_laboratorio_1-master\tp4\utn.c
 	<stdio.h>
 	<string.h>
 	<stdlib.h>

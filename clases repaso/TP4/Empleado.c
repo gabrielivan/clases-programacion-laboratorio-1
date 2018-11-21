@@ -48,7 +48,7 @@ int Empleado_delete(Empleado* this)
 *\return Retorna 0 si logra agregar elemento sino retorna -1
 */
 
-Empleado* Empleado_newConParametros(char* id,char* nombre,char* apellido,char* sueldo,char* isEmpty)//lee desde el archivo
+Empleado* Empleado_newConParametros(char* id,char* nombre,char* apellido,char* isEmpty,char* sueldo)//lee desde el archivo
 {
     Empleado* this;
     this = Empleado_new();
@@ -58,7 +58,7 @@ Empleado* Empleado_newConParametros(char* id,char* nombre,char* apellido,char* s
     char auxNombre[1024];
     char auxIsEmpty[1024];
 
-    if(EsEntero(id,1024)&& EsNombre(auxApellido,1024) && EsEntero(sueldo,1024)&& EsNombre(nombre,1024)&& EsNombre(isEmpty,1024))
+    if(EsEntero(id,1024)&& EsNombre(nombre,1024) && EsNombre(apellido,1024) && EsNombre(isEmpty,1024))
     {
         idClienteInt = atoi(id);
         sueldoInt = atoi(sueldo);
